@@ -4,7 +4,8 @@
 - Python
 - R
 
-### All data included in this repository should be downloaded to the desired working directory
+## Installing Packages
+All libraries needed for Python can be found in the file `Py_Libraries` while packages needed for R can be found in `R_Libraries`.
 
 ## Retrieving Landsat Data from Google Earth Engine
 The firsts step is to create a shapefile that includes the spatial data from which the spectral imagery will be collected. In this example, point data was used to reference the pixels of interest. Shapefiles can be generated using common geographic software such as ArcGIS or an open source alternative like QGIS. **It is important to note that a Google Earth Engine Token must first be generated for the following code to run effectively.**
