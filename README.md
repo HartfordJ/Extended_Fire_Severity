@@ -20,4 +20,6 @@ Manual steps were conducted as follows:
   3. The date closest to the end of the fire where values from all 20 points were present (those with poor QA values were previously rejected), and where all years occured within ~1 month of each other was chosen as the date from which data was selected and exported to a new .csv file to represent only the relevent temporal and spectral data.
   4. Average dNBR values for each year were calculated for the purpose of graphical representation, depicting the change in dNBR values prior to and up to four years following a fire. This file is distinct from a file generated later that contains the dNBR values obtained using R code, which does not contain the pre-fire dNBR value as its purpose is post-fire statistical analysis, whereby pre-fire values are undesireable. 
 
-The file `dNBR_Reshape` is then run to 
+The file `dNBR_Reshape` is then run to calculate the dNBR values and reshape the data to a more workable format. It also provides the data from which statistical analysis will be run. 
+
+## Statistical Anlysis
